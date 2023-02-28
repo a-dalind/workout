@@ -1,0 +1,22 @@
+// Colors
+// Project palette
+// для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
+$main-black: #000000;
+$main-white: #ffffff;
+$primary: #2f575d;
+$primary-middle: #511734;
+$light-brown: #8a7474;
+
+// Animation
+$tf-default: ease;
+$trans-default: 0.3s $tf-default;
+
+// Viewports
+$vp-768: 'max-width: 767px';
+$vp-1024: 'max-width: 1023px';
+
+// Fonts
+$base-font-family: 'Gilroy', 'Arial', sans-serif;
+
+// Shadows
+$bx-primary: 0 4px 4px rgba(0, 0, 0, 0.2);

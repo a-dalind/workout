@@ -1,0 +1,25 @@
+@import 'src/styles/global/variables';
+
+.wrapper {
+	position: relative;
+}
+
+.button {
+	display: flex;
+	border: none;
+	background: $primary;
+	border-radius: 12px;
+	padding: 5px;
+
+	> svg {
+		stroke: white;
+		fill: white;
+		width: 36px;
+		height: auto;
+	}
+
+	> svg > path {
+		stroke: white;
+		fill: white;
+	}
+}

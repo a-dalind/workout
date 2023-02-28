@@ -1,0 +1,17 @@
+@import '../../styles/global/variables';
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+.mainContent {
+	margin-bottom: auto;
+}

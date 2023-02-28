@@ -1,0 +1,29 @@
+@import 'src/styles/global/variables';
+
+.menu {
+	display: none;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	background-color: #fff;
+	border-radius: 12px;
+	color: black;
+	min-width: 160px;
+	padding: 12px;
+
+	&.open {
+		display: block;
+	}
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.logout {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}

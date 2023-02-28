@@ -1,0 +1,53 @@
+@import 'src/styles/global/variables';
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	padding: 8px 24px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 12px;
+
+	&:not([disabled]):hover {
+		//background: teal;
+	}
+
+	&[disabled] {
+		cursor: default;
+		//background: rgba(teal, 0.5);
+	}
+}
+
+.btn--primary {
+	border: 1px solid $primary;
+	background: $primary;
+	color: $main-white;
+
+	&:hover {
+		//text-decoration: none;
+	}
+
+	&[disabled] {
+		//text-decoration: none;
+	}
+}
+
+.btn--link {
+	&:hover {
+		text-decoration: none;
+	}
+
+	&[disabled] {
+		text-decoration: none;
+	}
+}
+
+.btn--blue {
+}
+
+.btn--skeleton {
+	border: 1px solid darkgray;
+	background: none;
+}
